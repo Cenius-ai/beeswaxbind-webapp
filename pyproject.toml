@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beeswaxbind"
+version = "1.0.0"
+description = "Offline harness needle, linen thread and thread-wax reference for leathercraft."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "BeeswaxBind" }]
+keywords = ["leathercraft", "saddlery", "harness", "linen thread", "beeswax", "cli"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "Programming Language :: Python :: 3",
+  "Topic :: Other/Nonlisted Topic",
+]
+dependencies = []
+
+[project.scripts]
+beeswaxbind = "beeswaxbind:main"
+
+[tool.setuptools]
+py-modules = ["beeswaxbind"]

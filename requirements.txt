@@ -1,0 +1,5 @@
+# BeeswaxBind itself is standard-library only: nothing in this file is needed to
+# run the tool. pytest is installed for the test suite in tests/ (the same suite
+# also runs on the standard library alone with:
+#     python3 -m unittest discover -s tests
+pytest==8.3.5
