@@ -31,7 +31,7 @@ See [`INSTALL.md`](INSTALL.md) for full setup and usage instructions.
 
 ## Architecture
 
-Everything runs out of the box: a Full-stack app codebase (23 files). Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. Top-level layout: `examples/`, `tests/`. Installation walkthrough: [`INSTALL.md`](INSTALL.md).
+Everything runs out of the box: a Full-stack app codebase (13 files). Dependency management and data seeding are both handled by `./install.sh` — run it once, then start the server. Top-level layout: `examples/`, `tests/`. Installation walkthrough: [`INSTALL.md`](INSTALL.md).
 
 ## Features
 
